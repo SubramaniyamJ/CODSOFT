@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Sora", sans-serif;
+    color: white;
+}
+.nav-container {
+    padding: 30px 70px 30px 70px;
+    background-color: black;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+li {
+    text-decoration: none;
+    list-style: none;
+    padding: 0px 24px 0px 24px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.language-sel, .sign-in {
+    font-size: larger;
+    padding: 10px 15px 10px 15px;
+    appearance: none;
+}
+
+.language-sel, .email {
+    background-color: #2b2b2b;
+}
+
+.sign-in {
+    background-color: #db4a2b;
+    border-radius: 5px;
+    border: none;
+}
+
+.maindiv {
+    background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.5) 70%, rgba(0,0,0,1)), url("movie\ collection.jpg");
+    padding: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.maindiv h1 {
+    font-size: 4rem;
+}
+
+.maindiv h3 {
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+
+.reg-sec .email {
+    border: solid;
+    margin-left: 20px;
+    height: 50px;
+    padding: 0px 15px 0px 15px  ;
+    font-weight: 200;
+    border-radius: 5px; 
+    font-size: 20px;
+    width: 400px;
+}
+
+.reg-sec .get-started {
+    padding: 15px;
+    margin-left: 10px;
+    background-color: #e3401b;
+    border: none;    
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.get-started:hover , .sign-in:hover {
+    cursor: pointer;
+    background-color: #bb4a2b;
+}
+
+.get-started:active, .sign-in:active {
+    transform: scale(0.98);
+}
+
+.division1, .division2, .division3, .division4 {
+    padding: 10rem;
+    border: 0.5rem gray;
+    border-style: solid none none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.textbox h2{
+    font-size: 3rem;
+}
+
+.textbox h3 {
+    font-size: x-large;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.image {
+    width: 700px;
+}
+
+.textbox {
+    padding: 7rem
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border: 0.5rem gray;
+    border-style: solid none none;
+    padding: 5rem 5rem 0rem 5rem;
+}
+
+.faq h2 {
+    font-size: 3rem;
+}
+
+.container {
+    padding: 3rem;
+    width: 1200px;
+}
+
+.container .questions{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 2rem 3rem 2rem 3rem;
+    background-color: #2b2b2b;
+    border: none;
+}
+
+.answers {
+    padding: 2rem 3rem 2rem 3rem;
+    font-size: 1.5rem;
+    display: none;  
+    line-height: 2.5rem;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #232323;
+}
+
+.questions:hover {
+    background-color: #232323;
+}
+
+.answers.active {
+    display: block;
+}   
+
+.questions:active{
+    transform: scale(0.995);
+}
+
+.questions.active{
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: solid black;
+}
+
+.questions.active .icons {
+    transform: rotate(180deg);
+}
+
+footer {
+    background-color: #2b2b2b;
+    padding: 4rem;
+}
+
+.bottom-reg-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    background-color: black;
+        .reg-sec{
+            padding: 40px;
+        }
+        h3 {
+            font-weight: 100;
+            padding: 20px;
+        }
+
+        .email {
+            margin-left: 40px;
+        }
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+
+    h3 {
+        font-weight: 400;
+    }
+
+    .branding {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    img {
+        width: 200px;
+        padding: 0 0 40px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    li {
+        padding: 0 10px 20px 10px;
+    }
+}
+
